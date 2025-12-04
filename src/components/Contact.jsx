@@ -20,7 +20,7 @@ const Contact = () => {
         e.preventDefault();
         setStatus('submitting');
 
-        // NOTE: Replace 'YOUR_ACCESS_KEY_HERE' with your actual Web3Forms Access Key()
+        // NOTE: Replace 'YOUR_ACCESS_KEY_HERE' with your actual Web3Forms Access Key
         // You can get one for free at https://web3forms.com/
         const apiKey = '1535d435-8f7b-4a99-bc7b-b253d2a634b6';
 
@@ -70,7 +70,12 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold mb-1">Email Us</h3>
-                                    <p className="text-slate-400">Xenecomm.software.technology@gmail.com</p>
+                                    <a
+                                        href="mailto:Xenecomm.software.technology@gmail.com"
+                                        className="text-slate-400 hover:text-blue-400 transition-colors"
+                                    >
+                                        Xenecomm.software.technology@gmail.com
+                                    </a>
                                 </div>
                             </div>
 
@@ -90,7 +95,14 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold mb-1">Visit Us</h3>
-                                    <p className="text-slate-400">123 Innovation Dr, Tech City, TC 90210</p>
+                                    <a
+                                        href="https://maps.app.goo.gl/DdiLuHSFLqb6ecvj6"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-slate-400 hover:text-cyan-400 transition-colors"
+                                    >
+                                        Xenecomm Software Technology, Bhubaneswar
+                                    </a>
                                 </div>
                             </div>
 
