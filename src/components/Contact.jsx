@@ -20,7 +20,7 @@ const Contact = () => {
         e.preventDefault();
         setStatus('submitting');
 
-        // NOTE: Replace 'YOUR_ACCESS_KEY_HERE' with your actual Web3Forms Access Key
+        // NOTE: Replace 'YOUR_ACCESS_KEY_HERE' with your actual Web3Forms Access Key()
         // You can get one for free at https://web3forms.com/
         const apiKey = '1535d435-8f7b-4a99-bc7b-b253d2a634b6';
 
